@@ -1,0 +1,53 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.defaultButtonHover1 {
+	/* background-color: #fa2d64; */
+	/* background: linear-gradient(to right, #fa2d64 0%, #855cde 100%, #9bd9e8 100%) */
+	/* repeat scroll 0 0; */
+	background: #198bd2;
+	box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F64C18", endColorstr="#EE9539", GradientType=1 );
+}
+.defaultButtonHover1:hover {
+	/* background-color: #f94575; */
+	/* background: rgba(55, 128, 238, 0.889); */
+	box-shadow: none;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F64C18", endColorstr="#EE9539", GradientType=1 );
+}

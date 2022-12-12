@@ -1,0 +1,16 @@
+.griditem {
+	height: 250px;
+	background: #657786;
+	margin: 10px;
+	border-radius: 12px;
+	cursor: pointer;
+	transform: revert-layer;
+	color: white;
+	transition: transform 0.7s;
+}
+
+.griditem:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
